@@ -6,7 +6,8 @@
 body {
   padding: 50px;
   font-family: 'Playfair Display', serif;
-  background-color: #dee6fb;
+  background-image: url('http://www.expertsupplier.com/newsite/wp-content/uploads/2014/11/light_background-wallpaper-1920x1200.jpg');
+  background-size: cover;
   text-align: center;
 }
 
@@ -31,7 +32,7 @@ p {
 
 li {
   text-align: center;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #758C9E;
   list-style: none;
   border-radius: 10px;
   height: 500px;
