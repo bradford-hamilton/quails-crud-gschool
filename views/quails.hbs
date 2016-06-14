@@ -1,3 +1,17 @@
-<h1>Quails are beautiful creatures</h1>
-
+<h1>Welcome to QuailLand - made for the people, by the people</h1>
+<br>
 <a href="/quails/add">Add a new Quail birdie</a>
+<br><br><br>
+
+<ul>
+  {{#each quails}}
+    <li>
+      <h3>{{this.name}}</h3>
+      <br>
+      <img src={{this.image}} alt='Quail image should be here.'>
+      <br>
+      <p>{{this.description}}</p>
+      <br><br><br><br><br>
+    </li>
+  {{/each}}
+</ul>

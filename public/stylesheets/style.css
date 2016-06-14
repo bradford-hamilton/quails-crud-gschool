@@ -1,8 +1,36 @@
+/* Raleway */
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+/* Playfair */
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
+  background-color: #d9fefd;
+  text-align: center;
 }
 
 a {
-  color: #00B7FF;
+  color: #ff5b28;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+li {
+  text-align: center;
+  border: 1px solid #c4c4c4;
+  list-style: none;
 }
