@@ -6,14 +6,15 @@
 body {
   padding: 50px;
   font-family: 'Playfair Display', serif;
-  background-image: url('http://www.expertsupplier.com/newsite/wp-content/uploads/2014/11/light_background-wallpaper-1920x1200.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaeOq0AtkMJvp-cdtxcNzdNrIz_TxnxExBp29BXe_a0m60AV2C');
   background-size: cover;
   text-align: center;
 }
 
 a {
-  color: #ff5b28;
+  color: #fc0000;
   font-size: 1.5rem;
+  text-shadow: 1px 1px #b1b1b1;
 }
 
 img {
